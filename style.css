@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    
+    height: 100%;
+    width: 100%;
+}
+
+
+.nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Helvetica;
+    padding: 0px 40px;
+    
+}
+
+.nav h3{
+    font-size: 16px;
+    border: 1.5px solid black;
+    font-weight: 500px;
+    padding: 7px 12px;
+    border-radius: 50px;
+}
+    
+    .nav h1{
+
+        font-weight: 500px;
+        font-size: 22px;
+    }
+
+    .nav button{
+        padding: 7px 12px;
+        border-radius: 50px;
+        background-color: white;
+        font-weight: 600px;
+    }
+
+    #btn2{
+        color: white;
+        background-color: #ff4500;
+        border: none;
+    }
+    #our{
+        font-size: 150px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        text-align: center;
+
+    }
+
+    img{
+
+        height: 350px;
+        width: 280px;
+        object-fit: cover;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 20px;
+    
+    }
+
+    #img2{
+
+        transform: translate(-50%,-50%) rotate(-28deg);
+    }
+
+    #img3{
+
+        transform: translate(-50%,-50%) rotate(-15deg);
+    }
+
+    #img1{
+
+        transform: translate(-50%,-50%) rotate(-40deg);
+    }
+
+    h5{
+        position: absolute;
+        bottom: 5%;
+        left: 3%;
+        font-size: 12px;
+        font-weight: 450px;
+
+    }
+    #link{
+
+        display: flex;
+        position: absolute;
+        bottom: 5%;
+        right: 3%;
+        justify-content: space-between;
+        align-items: center;
+
+    
+    }
+    
+    
